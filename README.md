@@ -1,8 +1,9 @@
 # dawa-quasar-vue3-autocomplete
+Dawa has an API to get all valid addresses in Denmark.
 
-Dawa has an API to get all valid addresses in Demnark.
+(ref: https://dawadocs.dataforsyningen.dk/dok/api/autocomplete#autocomplete)
 
-So this component makes it possible to "autocomplete" a input field; into a valid address in Denmark, by making requests to Dawa's API while typing
+So this component makes it possible to "autocomplete" a input field; into a valid DK address, by making requests to Dawa's API while typing
 
 Component for a Dawa autocomplete are using Vue 3 Typescript/Composition API with Quasar <q-select>
 
