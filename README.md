@@ -1,11 +1,14 @@
 # dawa-quasar-vue3-autocomplete
-Component for a Dawa autocomplete using Vue 3 Typescript/Composition API
 
-..hmm. Something like this. (I hope)
+Dawa has an API to get all valid addresses in Demnark.
 
-It not really a downloadable project; but more like a copy/paste project
+So this component makes it possible to "autocomplete" a input field; into a valid address in Denmark, by making requests to Dawa's API while typing
 
-I hope someone get my idea with this Quasar <q-select> implementation
+Component for a Dawa autocomplete are using Vue 3 Typescript/Composition API with Quasar <q-select>
+
+It's not really a downloadable project; but more like a copy/paste project
+
+I hope someone might find this useful
 
 Usage:
 ```
