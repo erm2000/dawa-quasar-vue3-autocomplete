@@ -13,10 +13,8 @@ const dawaAddressInput = ref<IDawaSearchObject>( { isSelectedAddress: false, sea
 </script>
 
 <template>
-    <q-card v-bind="$attrs">
-        <q-form class="q-px-sm">
-            <DawaAddress v-model="dawaAddressInput" color="secondary"/>
-        </q-form>
-    </q-card>
+  <q-form class="q-px-sm">
+      <DawaAddress v-model="dawaAddressInput" color="secondary"/>
+  </q-form>
 </template>
 ```
