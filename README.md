@@ -5,7 +5,7 @@ Component for a Dawa autocomplete using Vue 3 Typescript/Composition API
 
 It not really a downloadable project; but more like a copy/paste project
 
-I hope you get my idea with this Quasar <q-select> implementation
+I hope someone get my idea with this Quasar <q-select> implementation
 
 Usage:
 ```
