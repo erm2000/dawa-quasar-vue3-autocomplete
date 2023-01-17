@@ -10,7 +10,7 @@ I hope someone get my idea with this Quasar <q-select> implementation
 Usage:
 ```
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import { IDawaSearchObject } from 'src/components/models'
 import DawaAddress from 'src/components/DawaAddressComponent.vue'
   
