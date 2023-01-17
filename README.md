@@ -8,7 +8,7 @@ import { ref } from 'vue'
 import { IDawaSearchObject } from './models'
 import DawaAddress from 'src/components/DawaAddressComponent.vue'
   
-const dawaAddressInput = ref<DawaAddress>( { isSelectedAddress: false, searchaddress: '' } )
+const dawaAddressInput = ref<IDawaSearchObject>( { isSelectedAddress: false, searchaddress: '' } )
 
 </script>
 
