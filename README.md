@@ -2,6 +2,7 @@
 Component for a Dawa autocomplete using Vue 3 Typescript/Composition API
 
 ..hmm. Something like this. (I hope)
+
 It not really a downloadable project; but more like a copy/paste project
 
 I hope you get my idea with this Quasar <q-select> implementation
@@ -10,7 +11,7 @@ Usage:
 ```
 <script setup lang="ts">
 import { ref } from 'vue'
-import { IDawaSearchObject } from './models'
+import { IDawaSearchObject } from 'src/components/models'
 import DawaAddress from 'src/components/DawaAddressComponent.vue'
   
 const dawaAddressInput = ref<IDawaSearchObject>( { isSelectedAddress: false, searchaddress: '' } )
