@@ -19,7 +19,7 @@ const dawaAddressInput = ref<IDawaSearchObject>( { isSelectedAddress: false, sea
 watch(
   () => dawaAddressInput,
   async (newValue, oldValue) => {
-    if (newValue.dawaInfo.isSelectedAddress) {
+    if (newValue.isSelectedAddress) {
       console.log('Watch - dawaAddress changed')
     }
   }
